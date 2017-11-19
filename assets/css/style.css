@@ -161,8 +161,9 @@ h3,
 .work {
   position: relative;
   float: left;
-  width: 274px;
+  width: 50%;
   margin: 20px 0 25px;
+  /* margin: 0 0 40px; */
   overflow: auto;
 }
 
