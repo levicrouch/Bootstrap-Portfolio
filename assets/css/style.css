@@ -161,15 +161,15 @@ h3,
 .work {
   position: relative;
   float: left;
-  width: 50%;
+  width: 100%;
   margin: 20px 0 25px;
   /* margin: 0 0 40px; */
   overflow: auto;
 }
 
-.work:nth-child(even) {
+/* .work:nth-child(even) {
   margin-right: 40px;
-}
+} */
 
 .work img {
   width: 100%;
@@ -193,7 +193,7 @@ h3,
 
 .auth-image {
   float: left;
-  width: 200px;
+  width: 100%;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
