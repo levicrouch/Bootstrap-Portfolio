@@ -78,8 +78,9 @@ h3 {
 }
 
 nav {
-  /* float: right;
-  margin-top: 25px; */
+  float: left; 
+  /* margin-top: 25px; */
+  width: 100%;
 }
 
 nav a {
@@ -238,3 +239,26 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 768px) {
+ /* .navbar navbar-default {
+    max-width: 100%;
+  }  */
+  .sidebar {
+    float: left;
+    max-width: unset;
+  }
+  .main-section {
+    max-width: unset;
+  }
+  .auth-image {
+    width: 50%;
+  }
+  .work {
+    margin: 20px 20px 20px 0;
+    width: 45%;
+  }
+}
+@media screen and (max-width: 640px) {
+  
+  }
